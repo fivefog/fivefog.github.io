@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>txt手写</title>
+	<style type="text/css">
+		*{margin:0;padding:0;}
+		form{width:600px;border:1px #000 solid;margin:0 auto;padding:10px;}
+		p{margin-bottom:10px;}
+		fieldset{margin-bottom:10px;padding:10px;}
+		.fd1{border:1px #f00 dashed;}
+		.lg1{border:1px #f00 dashed;padding:5px 10px;}
+	</style>
+</head>
+<body>
+	<form name="f1" method="post" action="">
+		<fieldser class="fd1">
+		<legend class="lg1">用户登录</legend>                           
+		<p>姓名：<input type="text"></p>
+		密码：<input type="password">
+		<p><input type="submit"/><input type="reset"/></p>
+		</fieldset>		
+		<fieldset>
+		<legend>用户注册</legend>
+		<p>性别：男<input type="radio" name="sex"/>
+			 女<input type="radio" name="sex"/></p>
+		<p>爱好：聊天<input type="checkbox" name="like"/>睡			 觉<input type="checkbox" name="like"/>
+		         打游戏<input type="checkbox" 			name="like"/></p>
+		<p>出生年月：
+		<select>
+			<option>1996</option>
+			<option>1996</option>
+			<option>1997</option>
+			<option>1998</option>
+		</select>年
+		<select>
+			<option>09</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+		</select>月
+		</p>
+		<p>
+			个人简介<textarea cols="50" rows="5"></textarea>
+		</p>
+		</fieldset>
+	</form>
+</body>
+</html>
