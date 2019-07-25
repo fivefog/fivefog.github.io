@@ -1,0 +1,499 @@
+#chaofan{
+    width: 100%;
+    height: 5302px;
+
+}
+#chaofan .content{
+    width: 1140px;
+    height: 100%;
+    margin: auto;
+    /* background: #006711; */
+    overflow: hidden;
+}
+#chaofan .title{
+    width: 100%;
+    /* width: 242px; */
+    height: 44px;
+    margin-top: 42px;
+
+}
+#chaofan .pp{
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 23px;
+    color: #66668c;
+    white-space: pre-line;
+    text-align: center;
+
+}
+/* -----------header-------------- */
+.header{
+    width: 100%;
+    height: 82px;
+    background: #fff;
+}
+.header h1{
+    text-indent: -999px;
+    display: inline-block;
+    width: 420px;
+    height: 100%;
+    background: #fff url(../images/logo.png) center center no-repeat;
+}
+.header .nav{
+    /* float: left; */
+    width: 660px;
+    height: 100%;
+    background: #fff;
+}
+.header .nav li{
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 82px;
+    width: 80px;
+}
+.header a{
+    display: inline-block;
+    color: #000;
+    /* height: 82px; */
+    width: 100%;
+}
+.header .yingwen{
+    display: none;
+    text-transform: uppercase;
+}
+.header li:hover .zhongwen{
+    display: none;
+}
+.header li:hover .yingwen{
+    display: inline-block;
+    
+}
+/* --------------banner----------- */
+#chaofan .banner{
+    height: 448px;
+    width: 100%;
+    background: url(../images/banner.jpg);
+    
+}
+
+/* ---------------business------ */
+#chaofan .business{
+    width: 100%;
+    height: 726px;
+    background: #fff;
+    overflow: hidden;
+}
+.business .content div{
+    float: left;
+    width: 351px;
+    height: 218px;
+    position: relative;
+    margin-right: 43px;
+    margin-bottom: 4px;
+    margin-top: 55px;
+}
+.business .content div img{
+    width: 100%;
+    height: 100%;
+   
+}
+.business .content .major{
+    display: inline-block;
+    width: 228px;
+    height: 71px;
+    font-size: 22px;
+    line-height: 71px;
+    /* background: #1865cd; */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.business .detail{
+    float: left;
+    /* display: inline-block; */
+    width: 100%;
+    height: 100%;
+    /* background: #1865cd; */
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top:0;
+    left: 0;
+    /* line-height: 218px; */
+    display: none;
+    
+
+}
+.business .content div:hover .detail{
+    /* transition: height 0.3s;
+    overflow: hidden;   无效 ,why?*/
+    display: inline-block;
+
+}
+/* .business .content ul{
+    width:100%;
+    height: 440px;
+    background: #fff;
+    margin-top: 52px;
+}
+.business .content li{
+    float: left;
+    width: 351px;
+    height: 218px;
+    margin-right: 43px;
+    margin-bottom: 4px;
+} */
+
+/* ------------------clients--------- */
+#chaofan .clients{
+    width: 100%;
+    height: 762px;
+    background: #ebeff1;
+    overflow: hidden;
+}
+.clients ul{
+    width: 100%;
+    height: 502px;
+    background: #ebeff1;
+    margin-top: 53px;
+}
+.clients li{
+    float: left;
+    height: 166px;
+    width: 283px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background: #fff;
+}
+.clients span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+}
+.clients .clients2{
+    display: none;
+}
+.clients li:hover .clients1{
+    display: none;
+}
+.clients li:hover .clients2{
+    display: inline-block;
+}
+/* ---------------------works------------ */
+#chaofan .works{
+    width: 100%;
+    height: 682px;
+    background: #fff;
+    /* overflow: hidden; */
+}
+.works ul{
+    width: 100%;
+    height: 423px;
+    background: #fff;
+    margin-top: 53px;
+}
+.works li{
+    float: left;
+    width: 283px;
+    height: 211px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+    background-size: 100% 100%;
+    /* border: 1px solid #000; */
+}
+/* --------------------news--------------- */
+#chaofan .news{
+    width: 100%;
+    height: 800px;
+    background: #11809e;
+    /* overflow: hidden; */
+}
+.news-list{
+    width: 100%;
+    height: 528px;
+    margin: auto;
+    /* background: #005; */
+    font-size: 18px;
+    margin-top: 55px;
+
+    
+}
+.news-list div{
+    float: left;
+    background: #fff;
+    width: 550px;
+    height: 166px;
+}
+.news-list .list1,.list3,.list5{
+    margin-right: 40px;
+    margin-bottom: 14px;
+}
+.news-list img{
+    width: 170px;
+    height: 166px;
+    float: left;
+    vertical-align: middle;
+}
+/* .content .lirr{
+    background: #0a0;
+} */
+.news-list .lirr h3{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 28px;
+    margin-left: 19px;
+    color: #33334c;
+}
+.news-list .lirr .p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 14px;
+    margin-left: 19px;
+    color: #777;
+
+    width:330px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+.news-list .lirr .ll,.rr{
+     font-size: 9px;
+     line-height: 9px;
+     margin-top: 15px;
+     color: #ccc;
+     
+}
+.news-list .lirr{
+    float: right;
+    width: 380px;
+    height: 166px;
+}
+.news-list .lirr .rr{
+    float: right;
+}
+
+
+/* ---------------------experience------------ */
+#chaofan .experience{
+    width: 100%;
+    height: 912px;
+    background: #fff;
+
+}
+.experience ul{
+    width: 100%;
+    height: 130px;
+    margin-top: 56px;
+}
+.experience ul li{
+    width:25%;
+    height: 100%;
+    float: left;
+    background: #000075;
+    background-position: center top;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #e6e6e6;
+
+}
+.experience .experience-li1:hover{
+    background-image: url(../images/exp_xtb_02.png)!important;
+    border-bottom: 2px solid #0093dd;
+}
+.experience .experience-li2:hover{
+    background-image: url(../images/exp_xtb_04.png)!important;
+    border-bottom: 2px solid #0093dd;
+}
+.experience .experience-li3:hover{
+    background-image: url(../images/exp_xtb_06.png)!important;
+    border-bottom: 2px solid #0093dd;
+}
+.experience .experience-li4:hover{
+    background-image: url(../images/exp_xtb_08.png)!important;
+    border-bottom: 2px solid #0093dd;
+}
+.experience ul p{
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 100px;
+    color: #b2b2b2;
+    text-align: center;
+}
+.experience .big-tu{
+    width: 100%;
+    height: 461px;
+    /* background: #00264d url(../images/expe_liu_tu.png); */
+    margin-top: 50px;
+}
+.experience ol li{
+    width:100%;
+    height: 100%;
+
+}
+
+
+/* --------------------blue---------------- */
+#chaofan .blue{
+    width: 100%;
+    height: 224px;
+    background: url(../images/blue-bg.png);
+}
+.blue .list{
+    float: left;
+
+    margin-top: 46px;
+    /* height: 100%; */
+    height: 132px;
+    width: 378px;
+    border-right: 1px solid #0052a7;
+    text-align: center;
+
+}
+.blue .blue-h2{
+    /* width: 378px;
+    height: 68px;
+    text-align: center;*/
+    color: #fff; 
+    position: relative;
+
+}
+.blue .title{
+    font-size: 68px;
+    text-align: center;
+
+    /* display: block; */
+    line-height: 68px;
+}
+.blue .line{
+    background: url(../images/blue-bg.png);
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.blue .list p{
+    font-size: 16px;
+    margin-top: 32px;
+    color: #fff;
+}
+
+
+/* -----------------contact------------- */
+#chaofan .contact{
+    width: 100%;
+    height: 663px;
+    background: #202020;
+}
+.contact-list{
+    height:198px;
+    width: 100%;
+    /* background: #eee; */
+    /* margin:auto; */
+    margin-top: 53px;
+
+
+}
+.contact-list>div{
+    width: 260px;
+    height: 176px;
+    /* background: rgb(55, 180, 103); */
+    float: left;
+    margin-right: 24px;
+}
+ .top{
+    height: 94px;
+    width: 266px;
+    overflow: hidden;
+    /* float: left; */
+}
+.contact-list .top h3{
+    font-size: 16px;
+    line-height: 16px;
+    color: #90bbcb;
+    margin-left: 70px;
+    margin-bottom: 11px;
+}
+.contact-list .top span{
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    margin-left: 70px;
+}
+
+.bottom{
+    width: 266px;
+    height: 80px;
+    border: 1px solid #333;
+}
+.contact-list .bottom span{
+    font-size: 16px;
+    line-height: 80px;
+    color: #aaa;
+    margin-left: 69px;
+}
+.contact .contact-l{
+    white-space: pre-line;
+    color: #7f7f7f;
+    font-size: 12px;
+    line-height: 30px;
+}
+.contact-r img{
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+}
+.contact-r .name{
+    /* display: block;
+     */
+     color: #7f7f7f;
+     font-size: 12px;
+}
+
+/* -----------subnav------------- */
+.subnav{
+    position: fixed;
+    top:50%;
+    right: 25px;
+    width: 35px;
+}
+
+.subnav li{
+    /* width: 14px;
+    height: 14px; */
+    /* background:red; */
+    margin-bottom: 20px;
+    position: relative;
+}
+.subnav a{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/ind_subnav1.png);
+}
+.subnav .subcon{
+    display: inline-block;
+    height: 27px;
+    width: 67px;
+    background: url(../images/ind_subnav_bg.png) right top no-repeat;
+    position: absolute;
+    right: 37px;
+    margin-bottom: 3px;
+    text-align: center;
+    line-height: 27px;
+    color: #fff;
+    font-size: 14px;
+    display: none;
+}
+.subnav li:hover a{
+    background: url(../images/ind_subnav2.png);
+}
+.subnav li:hover .subcon{
+    display: inline-block;
+}
