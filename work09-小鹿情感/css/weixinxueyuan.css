@@ -1,0 +1,96 @@
+html,body{
+    /* width: 100%; */
+    height: 100%;
+}
+.main{
+    /* width: 100%; */
+    height: 100%;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+.content{
+    width: 990px;
+    margin: 52px auto;
+    
+}
+/* ----------main--------------- */
+.main .left{
+    float: left;
+    width: 242px;
+    background: #fff;
+    padding-bottom: 62px;
+    border-bottom: 1px solid #dedede;
+}
+.left-title{
+    font-size: 22px;
+    line-height: 58px;
+    color: #4c4c4c;
+    text-align: center;
+    height: 58px;
+    background: url(../images/weixin.png) 8px center no-repeat,url(../images/bg.png);
+}
+
+.left-list{
+    margin-left: 50px;
+}
+.left-list li{
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 27px;
+    color: #4c4c4c;
+}
+.main .right{
+    float: right;
+    /* width: 743px; */
+    width: 695px;
+    background: #fff;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 28px;
+}
+.right1{
+    height: 180px;
+    background: #f3e1c9 url(../images/bg_ba.png) 524px 66px no-repeat;
+    overflow: hidden;
+}
+.right1 .right1-p{
+    margin: 28px 196px 31px 32px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b67c70;
+}
+.right .gongkaike{
+    background: #fff;
+    padding-top: 20px;
+    position: relative;
+}
+.gongkaike .audio{
+    width: 160px;
+    height: 107;
+    /* display: inline-block; */
+}
+.gongkaike-title{
+    position: absolute;
+    top: 24px;
+    left: 189px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 16px;
+    
+}
+.gongkaike-title span{
+    margin-top: 2px;
+    margin-left: 25px;
+    font-size: 12px;
+    color: #4c4c4c
+}
+.gongkaike-p{
+    position: absolute;
+    left: 180px;
+    top: 53px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #bcbcb1;
+}
+
+

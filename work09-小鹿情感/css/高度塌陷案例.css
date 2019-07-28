@@ -1,0 +1,179 @@
+#box{
+  border: 1px solid #00f;
+}
+.content{
+    width: 1200px;
+    /* background: rgb(194, 101, 117); */
+    margin: auto;
+}
+.clearfix ::after{
+    content: 0;
+    clear: both;
+    height: 0;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+
+}
+.more{
+    display: inline-block;
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-top: 40px;
+    margin-bottom: 31px;
+}
+/* -----------box1----------------- */
+#box .box1{
+    width: 100%;
+}
+/* .box1 .title{
+    height: 84px;
+    
+} */
+.box1 .box1-ul{
+    margin-top: 40px;
+    margin-bottom: 31px;
+}
+.box1 .nav-li{
+    font-size: 12px;
+    line-height: 12px;
+    margin-right: 54px;
+}
+
+.box1-con-li{
+    margin-right: 60px;
+    width: 569px;
+    height: 160px;
+    /* background: rgb(184, 202, 104); */
+    margin-bottom: 30px;
+}
+.box1-con-li:nth-child(2n){
+    margin-right: 0;
+}
+.box1-con-li img{
+    height: 100%;
+    width: 240px;
+}
+.con-right{
+    width: 300px;
+}
+.con-right h2{
+    line-height: 18px;
+    font-size: 18px;
+    color: black;
+    margin-top: 8px ;
+    
+}
+.con-right span{
+    display: inline-block;
+    line-height: 12px;
+    font-size: 12px;
+    color: #c8c8d4;
+    margin-top: 16px;
+    margin-right: 40px;
+}
+.con-right p{
+    margin-top: 27px;
+    font-size: 12px;
+    line-height: 24px;
+}
+/* ----------lovehelp------ */
+.lovehelp{
+    background: #f8f8f8;
+    padding-bottom: 37px;
+}
+
+.lovehelp-title h2{
+    margin-top: 41px;
+    font-size: 26px;
+    line-height: 26px;
+}
+.lovehelp-title p{
+    /* margin-top: 107px; */
+
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 22px;
+    margin-top: 53px;
+}
+.lovehelp .qiuzhu{
+    position: relative;
+    height: 180px;
+    background: url(../images/bg-help.png) no-repeat;
+}
+.lovehelp .qiuzhu h2{
+    margin-top: 52px;
+    margin-left: 250px;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 900;
+}
+.lovehelp .qiuzhu p{
+    margin-top: 31px;
+    margin-left: 250px;
+    font-size: 14px;
+    line-height: 14px;
+}
+.lovehelp .qiuzhu-btn{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    background: #ffa000;
+    width: 180px;
+    height: 60px;
+    border-radius: 23px;
+}
+.lovehelp-list{
+    width: 270px;
+    height: 335px;
+    background: #fff;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.lovehelp-list img{
+    height: 180px;
+    width: 100%;
+}
+.lovehelp-list .listbtns{
+    margin-top: 14px;
+    text-align: center;
+}
+.lovehelp-list .listbtn{
+    display: inline-block;
+    width: 66px;
+    height: 22px;
+    border-radius: 9px;
+    background: #fdf2e9;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #000;
+    margin-right: 16px;
+
+}
+.lovehelp .list-bottom{
+    margin: auto;
+    margin-top: 13px;
+    height: 100px;
+    width: 230px;
+    border-top: 1px dashed #e8e8e8;
+}
+.lovehelp .list-bottom p{
+    background: url(../images/icon-q.png) left center no-repeat;
+    /* height: 18px; */
+    padding-left: 27px;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 11px;
+    width: 195px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
