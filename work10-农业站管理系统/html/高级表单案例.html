@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #box{
+            padding: 20px;
+            border: 1px solid #c6c8c7;
+        }
+        fieldset{
+            border: 1px solid #cccdcf;
+        }
+        legend{
+            border: 1px solid #cccdcf;
+            color: #50727b;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h2>已注册用户登录</h2>
+        <fieldset>
+            <legend>用户登录</legend>
+            <p><label for="username">用户名</label>
+                <input type="text" id="username">
+            </p>
+            <p><label for="password">密码</label>
+                <input type="password" id="password">
+                
+            </p>
+            <p><input type="radio"><label>记住我</label>
+                <button>登录</button>
+            </p>
+            <p>您忘记密码？</p>
+        </fieldset>
+        <h2>未注册创建账户</h2>
+        <fieldset>
+            <legend>用户注册</legend>
+            <p>您的电子邮箱不会被公布出去，但是必须填写，请你认真仔细阅读相关服务条款</p>
+            <p><label for="username2">用户名</label>
+                <input type="text" id="username">*（最多30个字符）
+            </p>
+            <p><label for="email">电子邮箱</label>
+                <input type="text" id="email">*
+
+            </p>
+            <p><label for="password">密码</label>
+                <input type="password" id="password">*（最多15个字符）
+            </p>
+            <p><label for="repass">确认密码</label>
+                <input type="password" id="repass">*
+            </p>
+            <p><label for="">同意服务条款</label>
+                <input type="radio">
+                <a href="">先看看条款？</a>*
+            </p>
+            <p><button>提交</button>
+                <button>重置</button>
+            </p>
+            <p>*在提交认为已经同意它的霸王条款的反馈点看看</p>
+            <p>*可能在你不知情条件下进行修稿改编</p>
+        </fieldset>
+
+    </div>
+</body>
+</html>

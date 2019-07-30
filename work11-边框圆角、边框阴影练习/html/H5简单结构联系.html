@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        .box {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            max-width: 900px;
+            margin: auto;
+            border: 5px solid #fff;
+        }
+
+        .zhu-header {
+            height: 80px;
+            background: #F47D31;
+
+        }
+        .main{
+            width: calc(100% - 20px);
+            background: #888;
+            height: calc(100% - 130px);
+            padding: 10px;
+        }
+        .zhu-header h1 {
+            font-size: 72px;
+            line-height: 80px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .zhu-footer {
+            height: 50px;
+            background: #F47D31;
+            color: #fff;
+        }
+
+        nav {
+            width: 25%;
+            float: left;
+        }
+
+        nav li {
+            width: 215px;
+            height: 43px;
+            border-bottom: 5px solid #fff;
+            color: #ed7d31;
+        }
+
+        .article {
+            float: left;
+            background: #888;
+            width: 50%;
+        }
+        .sec{
+            padding: 10px;
+            background: #fff;
+            margin-bottom: 10px;
+        }
+        .sec-head{
+            width: 100%;
+            height: 30px;
+            background: #F47D31;
+            color: #fff;
+            text-align: center;
+        }
+        .sec-foot{
+            width: 100%;
+            height: 30px;
+            background: #F47D31;
+            color: #fff;
+            text-align: center;
+
+        }
+
+        aside{
+            float: left;
+            width: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="box">
+        <header class="zhu-header">
+            <h1>Header</h1>
+        </header>
+        <main class="main">
+            <nav>
+                <h3>Nav</h3>
+                <ul class="navlist">
+                    <li>Link1</li>
+                    <li>Link2</li>
+                    <li>Link3</li>
+                </ul>
+            </nav>
+            <section class="article">
+                <article class="sec1 sec">
+                    <header class="sec-head">article header</header>
+                    <p>Lorem ipsum dolor HTML5 nunc aut nunquam sit amet, consectetur adipiscing elit. Vivamus at est eros, vel fringilla urna.
+
+                            Per inceptos himenaeos. Quisque feugiat, justo at vehicula pellentesque, turpis lorem dictum nunc.</p>
+                    <footer class="sec-foot">article footer</footer>
+                </article>
+                <article class="sec2 sec">
+                    <header class="sec-head">article header</header>
+                    <p>HTML5: "Lorem ipsum dolor nunc aut nunquam sit amet, consectetur adipiscing elit. Vivamus at est eros, vel fringilla urna. Pellentesque odio</p>
+                    <footer class="sec-foot">article footer</footer>
+
+                </article>
+
+
+            </section>
+            <aside>
+                <h3>Aside</h3>
+                <p>HTML5: "Lorem ipsum dolor nunc aut nunquam sit amet, consectetur adipiscing elit. Vivamus at est eros, vel fringilla urna. Pellentesque odio rhoncus</p>
+            </aside>
+        </main>
+        <footer class="zhu-footer">Footer</footer>
+    </section>
+</body>
+
+</html>
