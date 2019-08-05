@@ -8,4 +8,9 @@
 
 <a href="https://fivefog.github.io/work10-农业站管理系统/html/农业管理系统.html">day10农业管理系统</a><br/>
 
+<a href="https://fivefog.github.io/work14-周末/html/开源博客首页.html">day14开源博客页面</a><br/>
+
+<a href="https://fivefog.github.io/work14-周末/html/allpyra.html">day14 allpyra</a><br/>
+
+
 
