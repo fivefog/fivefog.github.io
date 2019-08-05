@@ -1,0 +1,61 @@
+@media all and (min-width:0px) and (max-width:766px){
+    #boke{ 
+        // .bk-header{
+        //     .nav{
+        //          display: none;
+        //     }
+            // 没引用成功？？/
+            .nav-yidong{
+                height: 56px;
+                width: 100%;
+                border-top:1px solid #eee; 
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                .navlist{
+                    a{
+                        width: 70px;
+                        display: inline-block;
+                        text-align: center;
+                        font-size: 12px;
+                        // line-height: 56px;
+                        line-height: 54px;
+                        // margin-right: 45px;
+                        color: #505050;
+        
+                    }
+                    a:hover{
+                        // border-bottom: 2px solid orangered;
+                        color: orangered;
+                    }
+                }
+        }
+    }
+}
+#boke{
+    .bk-header{
+        // .nav{
+        //     display: none;
+        // }
+    }
+    .bk-main{
+    flex-wrap: wrap;
+    columns: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        // padding-top: 37px;
+    .left-main{
+        // min-width: 573px;
+        width: 99%;
+       
+    }
+    .right-main{
+        // min-width: 573px;
+        width: 99%;
+       
+    }
+}
+}
