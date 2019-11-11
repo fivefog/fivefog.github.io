@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/j1_reg.css">
+</head>
+<body>
+    <div id="j1_reg">
+        <div class="content">
+                <div class="header clearfix">
+                        <h1>健一网</h1>
+                        <h2>会员注册</h2>
+                        <p>
+                                注册成功即可获得<span class="fc4">100</span>积分+<span class="fc4">会员特权</span>！
+                            </p>
+                 </div>
+                 <div class="mian">
+                     <!-- 左边的表单 -->
+                     <form id="newRegister" action="###" onsubmit="" method="post">
+                        <div class="rgfl732">
+                            <dl class="item">
+                                <dt>
+                                    <span class="xing">*</span>手机号
+                                </dt>
+                                <dd>
+                                    
+                                    <input type="text"   placeholder="请输入手机号" class="bk-default jssjh bk-error" name="mobile" id="mobile" style="color: rgb(153, 153, 153);">
+                                    <div class="ts-error _register_error_inf sjsure">
+                                        <!-- <em class="ico"></em>手机号eeee不能为空！ -->
+                                    </div>
+                                    <!-- 正确打钩  correct-->
+                                    <div class="_register_correct_inf"></div>
+                                </dd>
+                            </dl>
+                            <dl class="item" style="display: none;">
+                                <dt>邮箱</dt>
+                                <dd>
+                                    <input type="text" onblur="yxblur()" onfocus="yxfocus()" value="" class="bk-default jsyx" name="email" id="email">
+                                    <label for="" class="beizhu">填写Email并通过验证，可额外获得<span class="fc4">100</span>积分 ！
+                                    </label>
+            
+                                    <div class="ts-error _register_error_inf">
+                                        <em></em>
+                                    </div>
+                                    <!-- 正确打钩 correct-->
+                                    <div class="_register_correct_inf"></div>
+                                </dd>
+                            </dl>
+                            <dl class="item">
+                                <dt>
+                                    <span class="xing">*</span>设置密码
+                                </dt>
+                                <dd>
+                                    <input type="text" placeholder="6-20个大小写英文字母，符号或数字"  class="bk-default jsszmm passwordpre">
+                                    <input type="password" class="bk-default yck" name="loginPassword" id="loginPassword" onfocus="szmmfocus2()" onblur="szmmblur()" onkeyup="passwordAqCheck()">
+                                    <!-- 安全程度：<em class="cd-01"></em><em class="cd-02"></em><em class="cd-03"></em> -->
+                                    <label for="" class="beizhu">安全程度：<em class="cd-01" id="aqStyle"></em></label>
+            
+                                    <div class="ts-error _register_error_inf pswone">
+                                        
+                                    </div>
+                                    <!-- 正确打钩 -->
+                                    <div class="_register_correct_inf"></div>
+                                </dd>
+                            </dl>
+                            <dl class="item">
+                                <dt>
+                                    <span class="xing">*</span>确认密码
+                                </dt>
+                                <dd>
+                                    <input type="text" placeholder="再次输入密码"  class="bk-default jsqrmm passwordnext">
+                                    <input type="password" class="bk-default yck2"  name="rePassWord" id="rePassWord">
+            
+                                    <div class="ts-error _register_error_inf pswtwo">
+                                        
+                                    </div>
+                                    <div class="_register_correct_inf"></div>
+                                </dd>
+                            </dl>
+                            <dl class="item">
+                                <dt>
+                                    <span class="xing">*</span>验证码
+                                </dt>
+                                <dd>
+                                    <input type="hidden" class="_store_code_val" value="" id="keyword" name="keyword">
+                                    <input type="hidden" id="storeCodeKey" name="storeCodeKey" value="">
+            
+                                    <input type="text" class="bk-default kd80 _code_val yanzh" onfocus="codeFocus()" value="">
+                                    <input style="display: none" type="text" class="bk-default kd80 _mobile_code_val" onfocus="mobileCodeFocus()" onblur="mobileCodeBlur()" value="">
+            
+                                    <label for="" class="yzm _yzm_label">
+                                            <div id="ma">
+
+                                            </div>
+                                        <!-- <img src="https://passport.j1.com/system/keyword.html" alt="" id="ymimg" onclick="refreshRegisterCode();return false;" style="cursor: pointer;"> -->
+                                    </label>
+                                    <a href="###" class="btn-qryzm _code_mobile" >确认验证码</a>
+                                    <input style="display: none" type="button" class="btn-djs _code_mobile" onclick="getCode(true)" value="获取短信验证码">
+                                    <input style="display: none;" type="button" class="btn-djs _code_mobile" onclick="getCode(false)" value="重新获取短信验证码">
+            
+                                    <div class="ts-error _register_error_inf yzmsure">
+                                        
+                                    </div>
+                                </dd>
+                            </dl>
+                            <div class="ljzc yhxy">
+                                <input type="checkbox" value="1" class="checkbox" id="readme" name="readme" >
+                                <label for="protocol">
+                                    请阅读并同意健一网
+                                    <a target="_blank" href="https://www.j1.com/yonghuxieyi-pc.html" id="protocol">
+                                        《用户协议》
+                                    </a>
+                                </label>
+                                <div class="ts-error _register_error_inf xieyi">
+                                    <!-- <em></em> -->
+                                </div>
+                            </div>
+                            <div class="ljzc btnbox">
+                                    <input style="cursor:pointer;" class="btn-ljzc" value="立即注册">
+
+                                <!-- <input type="submit" style="cursor:pointer;" class="btn-ljzc" value="立即注册"> -->
+                            </div>
+                        </div>
+                    </form>
+                    <!-- 右边快速登录 -->
+                 </div>
+                 <!-- 底部 -->
+                <div class="sec-footer">
+                    <div class="zhengshu">
+                        <a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">互联网药品交易服务资格证书</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">药品经营许可证</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">互联网药品信息服务资格证书</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">食品流通许可证</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">医疗器械经营企业许可证</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">药品经营质量管理规范认证证书（新）</a><br>
+                        <a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">互联网医疗保健信息服务审核同意书</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">信用资质等级评定</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">信用资质等级证书</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">企业法人营业执照</a>&nbsp;&nbsp;<a rel="nofollow" target="_blank" href="javascript:void(0);" onclick="go2J1help();">税务登记证</a>
+                    </div> 
+                    
+                    <div class="copyright">Copyright © j1.com All rights reserved 沪ICP备09007253号
+                        上海健一网大药房连锁经营有限公司
+                    </div>
+                    <script type="text/javascript">
+                            function go2J1help(){
+                                window.location.href = "https://www.j1.com/news-help-40.html";
+                            }
+                        </script>
+                </div>
+        </div>
+    </div>
+</body>
+
+<script src="../js/common.js"></script>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/j1_reg.js"></script>
+</html>
